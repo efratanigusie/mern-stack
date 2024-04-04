@@ -10,7 +10,7 @@ import Update from './components/create/Update';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
 import Login from './components/account/Login';
-import Footer from './components/footer/footer'; // Import Footer component
+
 
 const PrivateRoute = ({ isAuthenticated, ...props }) => {
   const token = sessionStorage.getItem('accessToken');
@@ -56,7 +56,7 @@ function App() {
             </Route>
           </Routes>
         </Box>
-        <Footer /> {/* Render Footer component */}
+        
       </BrowserRouter>
     </DataProvider>
   );
