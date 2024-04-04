@@ -14,6 +14,8 @@ Edit Blog Posts: Users can edit the content of their existing blog posts to upda
 
 -Technologies Used
 
-Frontend: React.js, HTML, CSS
-Backend: Node.js, Express.js
-Database: MongoDB
+- Frontend: React.js, HTML, CSS
+
+- Backend: Node.js, Express.js
+
+- Database: MongoDB
